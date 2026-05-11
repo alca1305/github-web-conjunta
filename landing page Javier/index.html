@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javier Castellón — Landing personal</title>
+  <!-- Montserrat + IBM Plex Sans (tono limpio con la foto de montaña) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <!-- Portada: imagen de fondo en CSS (img/portada.jpg), nombre y menú a la izquierda encima -->
+  <section class="portada" id="inicio" aria-label="Presentación principal">
+    <div class="portada-inner">
+      <header class="cabecera-portada">
+        <div class="cabecera-izquierda">
+          <p class="logo-marca"><a href="#inicio">Javier Castellón</a></p>
+          <nav class="nav-principal" aria-label="Menú">
+            <ul class="menu-lista">
+              <li><a href="#quien-soy">Quién soy</a></li>
+              <li><a href="#cv">CV</a></li>
+              <li><a href="#proyectos">Proyectos</a></li>
+              <li><a href="#contacto">Contacto</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <div class="portada-cuerpo">
+        <div class="bloque-texto-portada">
+          <div class="titulos-portada">
+            <h1 class="titulo-hero">
+              Estudiante de ASIR<br>
+              <span class="titulo-hero-sub">Universidad Europea de Madrid · Formación guía de media montaña</span>
+            </h1>
+            <p class="hero-lead">
+              Intercalo el ciclo superior en administración de sistemas con la formación como guía de media montaña, con mirada profesional en ambientes alpinos además del entorno TI.
+            </p>
+          </div>
+          <a class="btn-principal" href="#quien-soy">Más sobre mí</a>
+        </div>
+      </div>
+
+      <!-- Pie dentro del mismo bloque para mantener la foto detrás -->
+      <!-- Barra inferior: © + redes -->
+      <div class="portada-pie">
+        <p class="copyright-portada">&copy; 2026 Javier Castellón Bueno · UEM</p>
+        <ul class="lista-redes" aria-label="Enlaces a redes (ejemplo)">
+          <li>
+            <a href="#" class="icono-red" aria-label="LinkedIn (sustituye por tu perfil)">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/dovenn1" class="icono-red" aria-label="GitHub — dovenn1" target="_blank" rel="noopener noreferrer">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="icono-red" aria-label="Correo">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5L4 8V6l8 5 8-5v2z"/></svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section id="quien-soy" class="seccion seccion-clara">
+      <div class="ancho-maximo">
+        <h2>Quién soy</h2>
+        <p class="lead">
+          Soy Javier Castellón Bueno y articulo dos líneas que para mí son compatibles: administración de sistemas informáticos y actuación profesional en ambientes alpinos.
+          Como estudiante de ASIR en la Universidad Europea de Madrid, alterno periodos de clase y prácticas técnicas con la formación como guía de media montaña, ordenando el calendario para mantener ambos itinerarios al día.
+        </p>
+        <p class="lead lead-segundo">
+          Me motiva la excelencia en ambos frentes: infraestructuras y servicios bien montados, y estándares altos en seguridad y gestión en entorno alpino.
+          En esta web tienes un resumen de mi CV, proyectos del grado y una forma sencilla de contactar conmigo.
+        </p>
+      </div>
+    </section>
+
+    <section id="cv" class="seccion seccion-oscura">
+      <div class="ancho-maximo">
+        <h2>Currículum</h2>
+        <div class="cv-layout">
+          <aside class="cv-columna cv-sidebar">
+            <h3>Datos</h3>
+            <ul class="lista-plana">
+              <li><strong>Nombre:</strong> Javier Castellón Bueno</li>
+              <li><strong>Ubicación:</strong> Calle Puerto de Navacerrada 34, 3º B · Majadahonda (Madrid)</li>
+              <li><strong>Email:</strong> <a href="mailto:Javicastellon3@gmail.com">Javicastellon3@gmail.com</a></li>
+            </ul>
+            <h3>Habilidades</h3>
+            <ul class="lista-plana">
+              <li>Desarrollo web con HTML y CSS (maquetación con Flexbox)</li>
+              <li>Despliegue de servidores y virtualización</li>
+              <li>Configuración de entornos en red</li>
+              <li>Planificación y seguridad en ambientes alpinos</li>
+            </ul>
+          </aside>
+          <div class="cv-columna cv-principal">
+            <h3>Formación</h3>
+            <p class="cv-resumen-paralelo">
+              Combino la trayectoria en <strong>ciclos superiores de informática</strong> (DAM en The Core School y ASIR en la Universidad Europea de Madrid) con la formación como <strong>guía de media montaña</strong> en el ámbito de la FEDME.
+              Organizo el año para intercalar exámenes, entregas y módulos del grado con los bloques formativos alpinos según calendario académico y hitos del curso de guía.
+            </p>
+            <div class="cv-doble-columna-texto">
+              <div class="cv-hilo">
+                <h4>DAM y ASIR</h4>
+                <p><strong>Desarrollo de aplicaciones multiplataforma (DAM)</strong> — The Core School — curso 2023-2025.</p>
+                <p><strong>Administración de sistemas en red (ASIR)</strong> — Universidad Europea de Madrid — curso 2025-2026. Redes, sistemas operativos, servicios, bases de datos y competencias orientadas al entorno profesional TI.</p>
+              </div>
+              <div class="cv-hilo">
+                <h4>Guía de media montaña</h4>
+                <p>Formación como guía en media montaña y preparación para actuación profesional en ambientes alpinos: progresión, meteorología, orientación, gestión de grupo y prevención de riesgos. Ámbito federativo: <strong>FEDME</strong> (Federación Española de Montaña y Escalada).</p>
+              </div>
+            </div>
+            <h3>Experiencia o prácticas</h3>
+            <p>Proyectos y entregas vinculadas a <strong>DAM</strong> y <strong>ASIR</strong>: aplicaciones y interfaces, acceso a datos, entornos de desarrollo y, en ASIR, administración de servicios, redes y sistemas conforme al itinerario del ciclo.</p>
+            <p>Varias <strong>expediciones invernales a tresmiles del Pirineo</strong>: ascensiones y itinerarios de alta montaña en condiciones de frío y nieve, con planificación de jornadas sucesivas y trabajo en entorno alpino invernal.</p>
+            <h3>Objetivos</h3>
+            <p>Consolidar un perfil técnico sólido en sistemas y, en paralelo, desarrollarme como profesional en ambientes alpinos con criterios rigurosos de seguridad; aplicar además lo aprendido en el grado a proyectos digitales claros y útiles.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos" class="seccion seccion-clara">
+      <div class="ancho-maximo">
+        <h2>PROYECTOS</h2>
+
+        <article class="bloque-asignatura">
+          <h3 class="titulo-asignatura">Lenguaje de Marcas</h3>
+          <div class="lista-proyectos">
+            <div class="tarjeta-proyecto">
+              <h4>ARIGASTELL</h4>
+              <p>Página web para Guïas de Montaña ARIGASTELL.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="bloque-asignatura">
+          <h3 class="titulo-asignatura">ISO</h3>
+          <div class="lista-proyectos">
+            <div class="tarjeta-proyecto">
+              <h4>Servidor NAGIOS</h4>
+              <p>Instalación de servidor NAGIOS.</p>
+            </div>
+            <div class="tarjeta-proyecto">
+              <h4>Ticketing</h4>
+              <p>Sistema de ticketing.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="bloque-asignatura">
+          <h3 class="titulo-asignatura">Hardware</h3>
+          <div class="lista-proyectos">
+            <div class="tarjeta-proyecto">
+              <h4>Hardening</h4>
+              <p>Práctica de hardening.</p>
+            </div>
+            <div class="tarjeta-proyecto">
+              <h4>Instalación de un CPD</h4>
+              <p>Práctica de instalación de un CPD.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="bloque-asignatura">
+          <h3 class="titulo-asignatura">Redes</h3>
+          <div class="lista-proyectos">
+            <div class="tarjeta-proyecto">
+              <h4>Rack y redes LAN / WAN</h4>
+              <p>Instalación de un rack de comunicaciones y diferentes redes LAN y WAN.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="bloque-asignatura">
+          <h3 class="titulo-asignatura">Cloud</h3>
+          <div class="lista-proyectos">
+            <div class="tarjeta-proyecto">
+              <h4>AWS — instancias</h4>
+              <p>Alojadas páginas web en diferentes instancias de AWS.</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contacto" class="seccion seccion-oscura">
+      <div class="ancho-maximo">
+        <h2>Contacto</h2>
+        <form class="formulario-contacto" action="#" method="post">
+          <label class="campo-formulario">
+            <span>Nombre</span>
+            <input type="text" name="nombre" required placeholder="Tu nombre">
+          </label>
+          <label class="campo-formulario">
+            <span>Correo</span>
+            <input type="email" name="email" required placeholder="tu@correo.com">
+          </label>
+          <label class="campo-formulario">
+            <span>Mensaje</span>
+            <textarea name="mensaje" rows="5" required placeholder="Escribe aquí tu mensaje"></textarea>
+          </label>
+          <button type="submit" class="btn-enviar">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie-final">
+    <div class="ancho-maximo pie-final-inner">
+      <p>Landing personal © Javier Castellón — Universidad Europea de Madrid</p>
+    </div>
+  </footer>
+</body>
+</html>
